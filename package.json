@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline --history-api-fallback",
+    "tree": "tree -I node_modules"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
     "babel-preset-react": "^6.11.1",
     "classnames": "^2.2.5",
     "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
     "postcss-import": "^8.1.2",
     "postcss-loader": "^0.9.1",
     "precss": "^1.4.0",

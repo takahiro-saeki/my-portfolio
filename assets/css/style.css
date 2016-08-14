@@ -1,0 +1,24 @@
+@import 'common/base';
+@import 'common/grid';
+@import 'common/skill';
+@import 'common/footer';
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  background: #CCC;
+}
+
+.test {
+  color: red;
+}
+
+.bg-test {
+  background-image: url(../img/top.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}

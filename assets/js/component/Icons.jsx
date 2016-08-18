@@ -16,7 +16,8 @@ export default class Icons extends Component {
   render() {
     return (
       <i className={classNames('fa', this.props.icon, this.props.size)}
-         aria-hidden={this.props.aria} style={Object.assign({}, this.props.styles)}/>
+         aria-hidden={this.props.aria}
+         style={Object.assign({}, this.props.styles)}/>
     )
   }
 }

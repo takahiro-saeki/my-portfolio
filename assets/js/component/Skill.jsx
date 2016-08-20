@@ -13,18 +13,22 @@ export default class Skill extends Component {
         <div className={style.row}>
           <div className={style['col-xs-4']}>
             <div style={{padding: '1rem', border: '1px solid #ccc'}}>
-            <i className="material-icons">language</i>
-            <h3>Language</h3>
-            <div>I’m front-end developer. Although my speciality is javascript, I can use several language. Especially, I like language that I get involved with front-end development.</div>
-            <div>I can use languages: HTML5, CSS3, javascript, ECMAScript 2015&2016, PHP.</div>
+              <div className={style.icon_wrap}>
+                <i className={classNames('material-icons', style['md-50'])}>language</i>
+              </div>
+              <h3>Language</h3>
+              <div>I’m front-end developer. Although my speciality is javascript, I can use several language. Especially, I like language that I get involved with front-end development.</div>
+              <div>I can use languages: HTML5, CSS3, javascript, ECMAScript 2015&2016, PHP.</div>
             </div>
           </div>
           <div className={style['col-xs-4']}>
             <div style={{padding: '1rem', border: '1px solid #ccc'}}>
-            <i className={classNames('material-icons', style['md-50'])}>work</i>
-            <h3>Language</h3>
-            <div>I’m front-end developer. Although my speciality is javascript, I can use several language. Especially, I like language that I get involved with front-end development.</div>
-            <div>I can use languages: HTML5, CSS3, javascript, ECMAScript 2015&2016, PHP.</div>
+              <div className={style.icon_wrap}>
+                <i className={classNames('material-icons', style['md-50'])}>work</i>
+              </div>
+              <h3>Language</h3>
+              <div>I’m front-end developer. Although my speciality is javascript, I can use several language. Especially, I like language that I get involved with front-end development.</div>
+              <div>I can use languages: HTML5, CSS3, javascript, ECMAScript 2015&2016, PHP.</div>
             </div>
           </div>
           <div className={style['col-xs-4']}>

@@ -1,0 +1,10 @@
+.md-50 {
+  font-size: 80px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+}
+
+.icon_wrap {
+  text-align: center;
+}

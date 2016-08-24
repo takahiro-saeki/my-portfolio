@@ -1,0 +1,19 @@
+.resume-box {
+  padding: 1rem;
+  border-radius: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+  height: 100%;
+}
+
+.first {
+  background: linear-gradient(#B71C1C, #F44336);
+  color: #FFF;
+}
+
+.resume-desc {
+  border: 1px solid #ccc;
+}
+
+.resume-margin {
+  margin: 1rem auto;
+}

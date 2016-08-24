@@ -3,6 +3,7 @@
 @import 'common/skill';
 @import 'common/footer';
 @import 'common/icon';
+@import 'common/resume';
 
 .navbar {
   position: fixed;

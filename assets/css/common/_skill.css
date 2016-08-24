@@ -1,0 +1,9 @@
+.skill-box {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  height: 100%;
+}
+
+.box-margin {
+  margin: 1rem auto;
+}

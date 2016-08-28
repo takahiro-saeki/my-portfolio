@@ -25,16 +25,17 @@ export default class Resume extends Component {
           </div>
         </section>
         <section className={style.row}>
-          <div className={boxLeft}>
-            <div className={first}>
-              <h2>mobile game company</h2>
-              <h3>2016/5 ~ 2016/6</h3>
-            </div>
-          </div>
           <div className={boxRight}>
             <div className={style['resume-box']}>
               I implemented the function of social matching service application.<br />
               I used ECMAScript 2015, gulp, React.js, PostCSS, and some modern library.
+            </div>
+          </div>
+
+          <div className={boxLeft}>
+            <div className={first}>
+              <h2>mobile game company</h2>
+              <h3>2016/5 ~ 2016/6</h3>
             </div>
           </div>
         </section>
@@ -53,16 +54,17 @@ export default class Resume extends Component {
           </div>
         </section>
         <section className={style.row}>
-          <div className={boxLeft}>
-            <div className={first}>
-              <h2>mobile game company</h2>
-              <h3>2016/5 ~ 2016/6</h3>
-            </div>
-          </div>
           <div className={boxRight}>
             <div className={style['resume-box']}>
               I implemented the function of social matching service application.<br />
               I used ECMAScript 2015, gulp, React.js, PostCSS, and some modern library.
+            </div>
+          </div>
+          
+          <div className={boxLeft}>
+            <div className={first}>
+              <h2>mobile game company</h2>
+              <h3>2016/5 ~ 2016/6</h3>
             </div>
           </div>
         </section>

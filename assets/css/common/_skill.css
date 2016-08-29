@@ -1,7 +1,8 @@
 .skill-box {
+  border-radius: .5rem;
   padding: 1rem;
-  border: 1px solid #ccc;
   height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
 }
 
 .box-margin {

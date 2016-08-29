@@ -10,6 +10,21 @@
   color: #FFF;
 }
 
+.second {
+  background: linear-gradient(#006064, #0097A7);
+  color: #FFF;
+}
+
+.third {
+  background: linear-gradient(#E65100, #EF6C00);
+  color: #FFF;
+}
+
+.fourth {
+  background: linear-gradient(#1B5E20, #43A047);
+  color: #FFF;
+}
+
 .resume-desc {
   border: 1px solid #ccc;
 }

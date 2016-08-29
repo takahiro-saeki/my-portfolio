@@ -9,7 +9,9 @@
   position: fixed;
   width: 100%;
   text-align: center;
-  background: #CCC;
+  background: rgba(0,0,0, .6);
+  color: #FFF;
+  padding: 1rem 0;
 }
 
 .test {

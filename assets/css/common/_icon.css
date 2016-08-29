@@ -8,3 +8,33 @@
 .icon_wrap {
   text-align: center;
 }
+
+.language {
+  color: #C2185B;
+  border: 1px solid #C2185B;
+}
+
+.work {
+  color: #0097A7;
+  border: 1px solid #0097A7;
+}
+
+.query_builder {
+  color: #E64A19;
+  border: 1px solid #E64A19;
+}
+
+.photo_library {
+  color: #00796B;
+  border: 1px solid #00796B;
+}
+
+.import_export {
+  color: #7B1FA2;
+  border: 1px solid #7B1FA2;
+}
+
+.verified_user {
+  color: #303F9F;
+  border: 1px solid #303F9F;
+}

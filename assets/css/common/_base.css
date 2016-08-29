@@ -5,3 +5,11 @@
 html, body {
   margin: 0;
 }
+
+hr {
+  background-color: #fff;
+  border-style: none;
+  border-top: 2px dashed #CCC;
+  display: block;
+  margin: 1rem auto;
+}

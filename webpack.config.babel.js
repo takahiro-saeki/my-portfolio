@@ -33,8 +33,8 @@ export default {
         test: /\.css$/,
         loaders: ['style', 'css?modules', 'postcss']
       },
-      { 
-        test: /\.jpg$/,
+      {
+        test: /(\.jpg|\.png)$/,
         loader: "file-loader"
       }
     ]

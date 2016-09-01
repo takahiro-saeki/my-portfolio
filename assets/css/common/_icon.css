@@ -38,3 +38,11 @@
   color: #303F9F;
   border: 1px solid #303F9F;
 }
+
+.social-wrap {
+  padding: 1rem 0;
+}
+
+.icon-base {
+  text-align: center;
+}

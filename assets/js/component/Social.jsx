@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import classNames from 'classnames';
 import Icons from './icons';
 import style from '../../css/style';
 
@@ -27,25 +28,36 @@ export default class Social extends Component {
       }
     }
 
+    const iconWrap = classNames(style.row, style['social-wrap'])
+    const iconClass = classNames(style['col-xs-6'], style['col-sm-3'], style['icon-base'])
+
     return (
       <section className={style['container-fluid']}>
-        <div className={style.row}>
+        <div className={iconWrap}>
+          <div className={iconClass}>
           <Icons
             icon="fa-twitter"
             size="fa-5x"
-            styles={Object.assign({}, iconStyle.icon, iconStyle.twitter)}/>
+            styles={iconStyle.twitter} />
+          </div>
+          <div className={iconClass}>
           <Icons
             icon="fa-facebook"
             size="fa-5x"
-            styles={Object.assign({}, iconStyle.icon, iconStyle.facebook)}/>
+            styles={iconStyle.facebook}/>
+          </div>
+          <div className={iconClass}>
           <Icons
             icon="fa-medium"
             size="fa-5x"
-            styles={Object.assign({}, iconStyle.icon, iconStyle.medium)}/>
+            styles={iconStyle.medium}/>
+          </div>
+          <div className={iconClass}>
           <Icons
             icon="fa-github"
             size="fa-5x"
-            styles={Object.assign({}, iconStyle.icon, iconStyle.github)}/>
+            styles={iconStyle.github}/>
+          </div>
         </div>
       </section>
     )

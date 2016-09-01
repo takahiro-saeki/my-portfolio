@@ -10,7 +10,8 @@ export default class Resume extends Component {
     const second = classNames(style['resume-box'], style.second);
     const third = classNames(style['resume-box'], style.third);
     const fourth = classNames(style['resume-box'], style.fourth);
-    const description =classNames(style['resume-box'], style['resume-desc'])
+    const description = classNames(style['resume-box'], style['resume-desc']);
+    const reverse = classNames(style.row, style['reverse'])
     return (
       <div className={style['container-fluid']}>
         <h2 style={{textAlign: 'center'}}>WORK-EXPERIENCE</h2>
@@ -28,18 +29,17 @@ export default class Resume extends Component {
             </div>
           </div>
         </section>
-        <section className={style.row}>
-          <div className={boxRight}>
-            <div className={style['resume-box']}>
-              I implemented the function of mobile and web application.<br />
-              I used ECMAScript 2015, grunt, browserify, and some modern library.
-            </div>
-          </div>
-
+        <section className={reverse}>
           <div className={boxLeft}>
             <div className={second}>
               <h2>life style company</h2>
               <h3>2015/8 ~ 2016/2</h3>
+            </div>
+          </div>
+          <div className={boxRight}>
+            <div className={style['resume-box']}>
+              I implemented the function of mobile and web application.<br />
+              I used ECMAScript 2015, grunt, browserify, and some modern library.
             </div>
           </div>
         </section>
@@ -57,18 +57,17 @@ export default class Resume extends Component {
             </div>
           </div>
         </section>
-        <section className={style.row}>
-          <div className={boxRight}>
-            <div className={style['resume-box']}>
-              I made some website and some design for photoshop and illustrator and some banner.<br />
-              I got the good experience to make web site and design.
-            </div>
-          </div>
-
+        <section className={reverse}>
           <div className={boxLeft}>
             <div className={fourth}>
               <h2>P.I.Square</h2>
               <h3>2014/5 ~ 2014/10</h3>
+            </div>
+          </div>
+          <div className={boxRight}>
+            <div className={style['resume-box']}>
+              I made some website and some design for photoshop and illustrator and some banner.<br />
+              I got the good experience to make web site and design.
             </div>
           </div>
         </section>

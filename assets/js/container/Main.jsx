@@ -6,6 +6,7 @@ import Footer from '../component/Footer';
 import Resume from '../component/Resume';
 import Social from '../component/Social';
 import Work from '../component/Work';
+import Contact from '../component/Contact';
 import style from '../../css/style';
 
 export default class Main extends Component {
@@ -17,6 +18,7 @@ export default class Main extends Component {
         <Skill />
         <Work />
         <Resume />
+        <Contact />
         <Social />
         <Footer />
       </main>

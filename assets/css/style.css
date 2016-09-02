@@ -4,6 +4,7 @@
 @import 'common/footer';
 @import 'common/icon';
 @import 'common/resume';
+@import 'common/contact';
 
 .navbar {
   position: fixed;
@@ -25,4 +26,12 @@
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
+}
+
+.hoverImg {
+  img {
+    &:hover {
+
+    }
+  }
 }

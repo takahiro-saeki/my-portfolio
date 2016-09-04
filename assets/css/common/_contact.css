@@ -2,3 +2,8 @@
   max-width: 980px;
   width: 100%;
 }
+
+.content-wrap-padding {
+  padding: 1rem;
+  margin: 1rem auto;
+}

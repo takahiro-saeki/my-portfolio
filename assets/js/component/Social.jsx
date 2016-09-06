@@ -29,7 +29,7 @@ export default class Social extends Component {
     }
 
     const iconWrap = classNames(style.row, style['social-wrap'])
-    const iconClass = classNames(style['col-xs-6'], style['col-sm-3'], style['icon-base'])
+    const iconClass = classNames(style['col-xs-3'], style['col-sm-3'], style['icon-base'])
 
     return (
       <section className={style['container-fluid']}>

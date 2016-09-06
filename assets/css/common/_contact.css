@@ -6,4 +6,39 @@
 .content-wrap-padding {
   padding: 1rem;
   margin: 1rem auto;
+  font-size: 1rem;
+}
+
+.button-submit {
+  padding: 1rem;
+  font-size: 1.5rem;
+  background: #0097A7;
+  border: 1px solid #0097A7;
+  color: #FFF;
+  margin: 1rem auto;
+  transition: .5s;
+  &:hover {
+    background: #FFF;
+    color: #0097A7;
+  }
+}
+
+.contact-wrap {
+  border: 1px solid #CCC;
+  border-radius: .5rem;
+  padding: 2rem 1rem;
+}
+
+.content-line-border {
+  border-top:none;
+  border-bottom: 1px solid #CCC;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.content-input {
+  padding: 1rem;
+  margin: 1rem auto;
+  font-size: 1rem;
+  max-width: 400px;
 }

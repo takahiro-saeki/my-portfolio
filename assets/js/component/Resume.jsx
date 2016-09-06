@@ -11,10 +11,11 @@ export default class Resume extends Component {
     const third = classNames(style['resume-box'], style.third);
     const fourth = classNames(style['resume-box'], style.fourth);
     const description = classNames(style['resume-box'], style['resume-desc']);
-    const reverse = classNames(style.row, style['reverse'])
+    const reverse = classNames(style.row, style['reverse']);
+    const workExperienceWrapper = classNames(style['container-fluid'], style['work-experience-bg']);
     return (
-      <div className={style['container-fluid']}>
-        <h2 style={{textAlign: 'center'}}>WORK-EXPERIENCE</h2>
+      <div className={workExperienceWrapper}>
+        <h2 className={style.title}>WORK-EXPERIENCE</h2>
         <section className={style.row}>
           <div className={boxLeft}>
             <div className={first}>

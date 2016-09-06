@@ -5,6 +5,7 @@
 @import 'common/icon';
 @import 'common/resume';
 @import 'common/contact';
+@import 'common/work';
 
 .navbar {
   position: fixed;
@@ -13,6 +14,7 @@
   background: rgba(0,0,0, .6);
   color: #FFF;
   padding: 1rem 0;
+  z-index: 100;
 }
 
 .bg-test {
@@ -27,4 +29,24 @@
 .img-shadow {
   border-radius: .5rem;
   box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+}
+
+.title {
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.add-hover {
+  position: absolute;
+  width: 100%;
+  background: red;
+  background: rgba(0,0,0, .6);
+  border-radius: .5rem;
+  color: #FFF;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
 }

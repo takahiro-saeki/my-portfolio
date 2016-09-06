@@ -8,3 +8,9 @@
 .box-margin {
   margin: 1rem auto;
 }
+
+.skill-bg {
+  background: #FFF;
+  z-index: 10;
+  position: relative;
+}

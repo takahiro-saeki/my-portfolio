@@ -14,9 +14,9 @@ export default class Skill extends Component {
     const verified_user = classNames('material-icons', style['md-50'], style.verified_user);
     const contentBox = classNames(style['col-xs-12'], style['col-sm-6'], style['col-lg-4'], style['box-margin']);
     const header = classNames(style.row, style['center-xs']);
-
+    const bg = classNames(style['container-fluid'], style['skill-bg']);
     return (
-      <section className={style['container-fluid']}>
+      <section className={bg}>
         <div className={header}>
           <h2 className={style['col-xs-6']}>SKILL LIST</h2>
         </div>

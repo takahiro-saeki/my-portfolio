@@ -46,3 +46,9 @@
 .icon-base {
   text-align: center;
 }
+
+.social-bg {
+  background: #FFF;
+  z-index: 10;
+  position: relative;
+}

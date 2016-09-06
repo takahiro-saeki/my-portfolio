@@ -28,11 +28,12 @@ export default class Social extends Component {
       }
     }
 
-    const iconWrap = classNames(style.row, style['social-wrap'])
-    const iconClass = classNames(style['col-xs-3'], style['col-sm-3'], style['icon-base'])
+    const iconWrap = classNames(style.row, style['social-wrap']);
+    const iconClass = classNames(style['col-xs-3'], style['col-sm-3'], style['icon-base']);
+    const socialWrapper = classNames(style['container-fluid'], style['social-bg']);
 
     return (
-      <section className={style['container-fluid']}>
+      <section className={socialWrapper}>
         <div className={iconWrap}>
           <div className={iconClass}>
           <Icons

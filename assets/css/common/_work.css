@@ -1,0 +1,21 @@
+.block {
+  margin: 1rem 0;
+  h3 {
+    font-size: .8rem;
+  }
+  div {
+    font-size: .8rem;
+  }
+}
+
+.work-bg {
+  background: #FFF;
+  z-index: 10;
+  position: relative;
+}
+
+.work-experience-bg {
+  background: #FFF;
+  z-index: 10;
+  position: relative;
+}

@@ -12,14 +12,32 @@ import style from '../../css/style';
 
 export default class Work extends Component {
   render() {
-    const responsive = classNames(style['col-xs-12'], style['col-sm-6'], style['col-md-4'], style.hoverImg)
-    const img = classNames(style['responsive-img'], style['img-shadow'])
+    const responsive = classNames(style['col-xs-12'], style['col-sm-6'], style['col-md-4'], style.block);
+    const img = classNames(style['responsive-img'], style['img-shadow']);
+    const imgTest = classNames(style['responsive-img'], style['img-shadow'], style['add-hover']);
+    const workWrapper = classNames(style['container-fluid'], style['work-bg']);
     return (
-      <section className={style['container-fluid']}>
-        <h2>WORK</h2>
+      <section className={workWrapper}>
+        <h2 className={style.title}>WORK</h2>
         <ul className={style.row}>
           <li className={responsive}>
-            <img src={Image1} className={img}/>
+            <div style={{position: 'relative', width: '100%', height: '227px'}}>
+              <img src={Image1} className={img}/>
+              <div className={imgTest}>
+                <div style={{
+                    position: 'absolute',
+                    width: '50px',
+                    height: '50px',
+                    top: 0,
+                    right: 0,
+                    left: 0,
+                    bottom: 0,
+                    margin: 'auto'
+                  }}>
+                  テスト
+                </div>
+              </div>
+            </div>
             <h3 style={{margin: '0 auto'}}>book</h3>
             <div>BOOK, PostCSS</div>
           </li>

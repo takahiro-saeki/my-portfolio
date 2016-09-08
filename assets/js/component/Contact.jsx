@@ -26,6 +26,8 @@ export default class Contact extends Component {
         </form>
         <div className={buttonGroup}>
           <input type="submit" value="SEND" className={submit} />
+          {/* 仮 */}
+          <button type="submit" value="SEND" className={submit} />
         </div>
       </section>
     )

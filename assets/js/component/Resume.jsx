@@ -14,8 +14,8 @@ export default class Resume extends Component {
     const reverse = classNames(style.row, style['reverse']);
     const workExperienceWrapper = classNames(style['container-fluid'], style['work-experience-bg']);
     return (
-      <div className={workExperienceWrapper}>
-        <h2 className={style.title}>WORK-EXPERIENCE</h2>
+      <div className={workExperienceWrapper} id="TIMELINE">
+        <h2 className={style.title}>TIMELINE</h2>
         <section className={style.row}>
           <div className={boxLeft}>
             <div className={first}>

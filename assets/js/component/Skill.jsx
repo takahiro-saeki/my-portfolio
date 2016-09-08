@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Scroll from 'react-scroll';
 import classNames from 'classnames';
 import style from '../../css/style';
 import FontIcon from 'material-ui/FontIcon';
@@ -16,9 +17,9 @@ export default class Skill extends Component {
     const header = classNames(style.row, style['center-xs']);
     const bg = classNames(style['container-fluid'], style['skill-bg']);
     return (
-      <section className={bg}>
+      <section className={bg} id="SKILL">
         <div className={header}>
-          <h2 className={style['col-xs-6']}>SKILL LIST</h2>
+          <h2 className={style['col-xs-6']}>SKILL</h2>
         </div>
         <div className={style.row}>
           <div className={contentBox}>

@@ -5,8 +5,9 @@
 
 .content-wrap-padding {
   padding: 1rem;
-  margin: 1rem auto;
+  margin: 1rem 0;
   font-size: 1rem;
+  text-align: center;
 }
 
 .button-submit {
@@ -15,7 +16,7 @@
   background: #0097A7;
   border: 1px solid #0097A7;
   color: #FFF;
-  margin: 1rem auto;
+  margin: 2rem auto 1rem;
   transition: .5s;
   &:hover {
     background: #FFF;
@@ -37,10 +38,17 @@
 }
 
 .content-input {
-  padding: 1rem;
-  margin: 1rem auto;
+  padding: .5rem;
+  margin: 1rem 0;
   font-size: 1rem;
   max-width: 400px;
+}
+
+.content-textarea {
+  padding: .5rem;
+  margin: 1rem 0;
+  font-size: 1rem;
+  height: 200px;
 }
 
 .contact-bg {

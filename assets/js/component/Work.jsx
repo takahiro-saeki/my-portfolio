@@ -10,72 +10,118 @@ import github2 from '../../img/github2.png';
 import github3 from '../../img/github3.png';
 import style from '../../css/style';
 
+const URL = {
+  PDF_1: 'http://hiro.eek.jp/work1.pdf',
+  PDF_2: 'http://hiro.eek.jp/work2.pdf',
+  BOOK: 'http://mohu-para.com/comitia116/',
+  GIT_1: 'https://github.com/takahiro-saeki/react-recharts-sandbox',
+  GIT_2: 'https://github.com/takahiro-saeki/react-wp-rest-api',
+  GIT_3: 'https://github.com/takahiro-saeki/react-politicians-library'
+}
+
 export default class Work extends Component {
+  location(url) {
+    window.open(url, '_blank')
+  }
+
   render() {
     const responsive = classNames(style['col-xs-12'], style['col-sm-6'], style['col-md-4'], style.block);
     const img = classNames(style['responsive-img'], style['img-shadow']);
     const imgTest = classNames(style['responsive-img'], style['img-shadow'], style['add-hover']);
     const workWrapper = classNames(style['container-fluid'], style['work-bg']);
     return (
-      <section className={workWrapper}>
+      <section className={workWrapper} id="WORK">
         <h2 className={style.title}>WORK</h2>
         <ul className={style.row}>
+
           <li className={responsive}>
-            <div style={{position: 'relative', width: '100%', height: '227px'}}>
+            <div className={style['work-list']} onClick={() => this.location(URL.BOOK)}>
               <img src={Image1} className={img}/>
               <div className={imgTest}>
-                <div style={{
-                    position: 'absolute',
-                    width: '50px',
-                    height: '50px',
-                    top: 0,
-                    right: 0,
-                    left: 0,
-                    bottom: 0,
-                    margin: 'auto'
-                  }}>
-                  テスト
-                </div>
+                <div className={style['hover-text']}>WEB SITE</div>
               </div>
             </div>
-            <h3 style={{margin: '0 auto'}}>book</h3>
+            <h3>book</h3>
             <div>BOOK, PostCSS</div>
           </li>
+
           <li className={responsive}>
-            <img src={Image2} className={img}/>
-            <h3 style={{margin: '0 auto'}}>book</h3>
+            <div className={style['work-list']} onClick={() => this.location(URL.BOOK)}>
+              <img src={Image2} className={img}/>
+              <div className={imgTest}>
+                <div className={style['hover-text']}>WEB SITE</div>
+              </div>
+            </div>
+            <h3>book</h3>
             <div>BOOK, PostCSS</div>
           </li>
+
           <li className={responsive}>
-            <img src={Image3} className={img}/>
-            <h3 style={{margin: '0 auto'}}>book</h3>
+            <div className={style['work-list']} onClick={() => this.location(URL.BOOK)}>
+              <img src={Image3} className={img}/>
+              <div className={imgTest}>
+                <div className={style['hover-text']}>WEB SITE</div>
+              </div>
+            </div>
+            <h3>book</h3>
             <div>BOOK, PostCSS</div>
           </li>
+
           <li className={responsive}>
-            <img src={Media1} className={img}/>
-            <h3 style={{margin: '0 auto'}}>DTP</h3>
+            <div className={style['work-list']} onClick={() => this.location(URL.PDF_1)}>
+              <img src={Media1} className={img}/>
+              <div className={imgTest}>
+                <div className={style['hover-text']}>WEB SITE</div>
+              </div>
+            </div>
+            <h3>DTP</h3>
             <div>Poster</div>
           </li>
+
           <li className={responsive}>
-            <img src={Media2} className={img}/>
-            <h3 style={{margin: '0 auto'}}>DTP</h3>
+            <div className={style['work-list']} onClick={() => this.location(URL.PDF_2)}>
+              <img src={Media2} className={img}/>
+              <div className={imgTest}>
+                <div className={style['hover-text']}>WEB SITE</div>
+              </div>
+            </div>
+            <h3>DTP</h3>
             <div>Poster</div>
           </li>
+
           <li className={responsive}>
-            <img src={github1} className={img}/>
-            <h3 style={{margin: '0 auto'}}>DTP</h3>
+            <div className={style['work-list']} onClick={() => this.location(URL.GIT_1)}>
+              <img src={github1} className={img}/>
+              <div className={imgTest}>
+                <div className={style['hover-text']}>GitHub</div>
+              </div>
+            </div>
+            <h3>DTP</h3>
             <div>Poster</div>
           </li>
+
           <li className={responsive}>
-            <img src={github2} className={img}/>
-            <h3 style={{margin: '0 auto'}}>DTP</h3>
+            <div className={style['work-list']} onClick={() => this.location(URL.GIT_2)}>
+              <img src={github2} className={img}/>
+              <div className={imgTest}>
+                <div className={style['hover-text']}>GitHub</div>
+              </div>
+            </div>
+            <h3>DTP</h3>
             <div>Poster</div>
           </li>
+
           <li className={responsive}>
-            <img src={github3} className={img}/>
-            <h3 style={{margin: '0 auto'}}>DTP</h3>
+            <div className={style['work-list']} onClick={() => this.location(URL.GIT_3)}>
+              <img src={github3} className={img}/>
+              <div className={imgTest}>
+                <div className={style['hover-text']}>GitHub</div>
+              </div>
+            </div>
+            <h3>DTP</h3>
             <div>Poster</div>
           </li>
+
         </ul>
       </section>
     )

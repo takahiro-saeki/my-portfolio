@@ -2,6 +2,7 @@
   margin: 1rem 0;
   h3 {
     font-size: .8rem;
+    margin: 0 auto;
   }
   div {
     font-size: .8rem;
@@ -18,4 +19,50 @@
   background: #FFF;
   z-index: 10;
   position: relative;
+}
+
+.work-list {
+  position: relative;
+  width: 100%;
+  height: auto;
+  .hover-text {
+    opacity: 0;
+    background: rgba(0, 0, 0, 0);
+  }
+  &:hover {
+    .hover-text {
+      opacity: 1;
+      position: absolute;
+      width: 200px;
+      height: 50px;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      margin: auto;
+      border: 1px solid #FFF;
+      border-radius: .5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.add-hover {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  background: rgba(0,0,0, .6);
+  border-radius: .5rem;
+  color: #FFF;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  transition: .5s;
+  &:hover {
+    opacity: 1;
+  }
 }

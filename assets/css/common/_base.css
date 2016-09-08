@@ -34,6 +34,10 @@ textarea {
   border-radius: .5rem;
 }
 
+img {
+  vertical-align: bottom;
+}
+
 .responsive-img {
   max-width: 100%;
   height: auto;

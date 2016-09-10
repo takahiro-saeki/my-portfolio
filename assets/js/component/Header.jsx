@@ -12,7 +12,7 @@ export default class Header extends Component {
     smoothScroll.init({
       selector: '[data-scroll]',
       selectorHeader: null,
-      speed: 500,
+      speed: 800,
       easing: 'easeInOutCubic',
       offset: 50,
       callback: function ( anchor, toggle ) {} // Function to run after scrolling

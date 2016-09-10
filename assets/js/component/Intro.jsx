@@ -30,7 +30,7 @@ export default class Intro extends Component {
             background: "rgba(51,51,51,0.5)"
           }}>
           <div style={{
-              position: "fixed",
+              position: "absolute",
               width: "100%",
               height: "170px",
               maxWidth: "800px",

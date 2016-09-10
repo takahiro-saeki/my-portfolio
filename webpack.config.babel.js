@@ -34,8 +34,8 @@ export default {
         loaders: ['style', 'css?modules', 'postcss']
       },
       {
-        test: /(\.jpg|\.png)$/,
-        loader: "file-loader"
+        test: /\.(jpg|png)$/,
+        loader: "file-loader?name=./template/img/[hash].[ext]"
       }
     ]
   },

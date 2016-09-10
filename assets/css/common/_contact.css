@@ -56,3 +56,9 @@
   z-index: 10;
   position: relative;
 }
+
+@media only screen and (max-width: 48em) {
+  .content-wrap-padding {
+    margin: 0 auto;
+  }
+}

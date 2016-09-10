@@ -23,12 +23,8 @@ export default class Contact extends Component {
           <hr className={style["content-line-border"]} />
           <div className={subtitle}>content</div>
           <textarea name="kanso" className={textarea} name="contact" />
-        </form>
-        <div className={buttonGroup}>
           <input type="submit" value="SEND" className={submit} />
-          {/* 仮 */}
-          <button type="submit" value="SEND" className={submit} />
-        </div>
+        </form>
       </section>
     )
   }

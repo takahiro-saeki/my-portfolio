@@ -4,8 +4,8 @@ import style from '../../css/style';
 
 export default class Resume extends Component {
   render() {
-    const boxLeft = classNames(style['col-xs-12'], style['col-md-4'], style['resume-margin']);
-    const boxRight = classNames(style['col-xs-12'], style['col-md-8'], style['resume-margin']);
+    const boxLeft = classNames(style['col-xs-12'], style['col-sm-4'], style['resume-margin']);
+    const boxRight = classNames(style['col-xs-12'], style['col-sm-8'], style['resume-margin']);
     const first = classNames(style['resume-box'], style.first);
     const second = classNames(style['resume-box'], style.second);
     const third = classNames(style['resume-box'], style.third);

@@ -10,14 +10,16 @@ export default class Icons extends Component {
     icon: '',
     size: 'fa-lg',
     aria: 'true',
-    styles: {}
+    styles: {},
+    clicks: {}
   }
 
   render() {
     return (
-      <i className={classNames('fa', this.props.icon, this.props.size)}
+      <i className={classNames('link-icon', 'fa', this.props.icon, this.props.size)}
          aria-hidden={this.props.aria}
-         style={Object.assign({}, this.props.styles)}/>
+         style={Object.assign({}, this.props.styles)}
+         onClick={this.props.clicks}/>
     )
   }
 }

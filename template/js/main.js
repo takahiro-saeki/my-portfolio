@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "ee7adcd523236dfe4f01"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "617e32aab779a6451dcc"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -12947,8 +12947,8 @@
 	  _createClass(Resume, [{
 	    key: 'render',
 	    value: function render() {
-	      var boxLeft = (0, _classnames2.default)(_style2.default['col-xs-12'], _style2.default['col-md-4'], _style2.default['resume-margin']);
-	      var boxRight = (0, _classnames2.default)(_style2.default['col-xs-12'], _style2.default['col-md-8'], _style2.default['resume-margin']);
+	      var boxLeft = (0, _classnames2.default)(_style2.default['col-xs-12'], _style2.default['col-sm-4'], _style2.default['resume-margin']);
+	      var boxRight = (0, _classnames2.default)(_style2.default['col-xs-12'], _style2.default['col-sm-8'], _style2.default['resume-margin']);
 	      var first = (0, _classnames2.default)(_style2.default['resume-box'], _style2.default.first);
 	      var second = (0, _classnames2.default)(_style2.default['resume-box'], _style2.default.second);
 	      var third = (0, _classnames2.default)(_style2.default['resume-box'], _style2.default.third);

@@ -4,7 +4,19 @@ import Icons from './icons';
 import style from '../../css/style';
 
 export default class Social extends Component {
+
+  location(url) {
+    location.assign(url)
+  }
+
   render() {
+    const URL = {
+      twitter: 'https://twitter.com/hirodeath',
+      facebook: 'https://www.facebook.com/profile.php?id=100008247964402',
+      medium: 'https://medium.com/@hirodeath',
+      github: 'https://github.com/takahiro-saeki'
+    }
+
     const iconStyle = {
       icon: {
         textAlign: 'center',
@@ -25,6 +37,9 @@ export default class Social extends Component {
       },
       github: {
         color: '#333333'
+      },
+      linkPointer: {
+        cursor: 'pointer'
       }
     }
 
@@ -39,25 +54,30 @@ export default class Social extends Component {
           <Icons
             icon="fa-twitter"
             size="fa-5x"
-            styles={iconStyle.twitter} />
+            styles={Object.assign({}, iconStyle.twitter, iconStyle.linkPointer)}
+            clicks={() => this.location(URL.twitter)}
+            />
           </div>
           <div className={iconClass}>
           <Icons
             icon="fa-facebook"
             size="fa-5x"
-            styles={iconStyle.facebook}/>
+            styles={Object.assign({}, iconStyle.facebook, iconStyle.linkPointer)}
+            clicks={() => this.location(URL.facebook)}/>
           </div>
           <div className={iconClass}>
           <Icons
             icon="fa-medium"
             size="fa-5x"
-            styles={iconStyle.medium}/>
+            styles={Object.assign({}, iconStyle.medium, iconStyle.linkPointer)}
+            clicks={() => this.location(URL.medium)}/>
           </div>
           <div className={iconClass}>
           <Icons
             icon="fa-github"
             size="fa-5x"
-            styles={iconStyle.github}/>
+            styles={Object.assign({}, iconStyle.github, iconStyle.linkPointer)}
+            clicks={() => this.location(URL.github)}/>
           </div>
         </div>
       </section>

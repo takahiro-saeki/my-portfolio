@@ -21,7 +21,7 @@ const URL = {
 
 export default class Work extends Component {
   location(url) {
-    window.open(url, '_blank')
+    window.open(url, '_blank');
   }
 
   render() {
@@ -41,7 +41,7 @@ export default class Work extends Component {
                 <div className={style['hover-text']}>WEB SITE</div>
               </div>
             </div>
-            <h3>book</h3>
+            <h3>アナタに捧げるフロントエンド実践マニュアル</h3>
             <div>BOOK, PostCSS</div>
           </li>
 
@@ -52,7 +52,7 @@ export default class Work extends Component {
                 <div className={style['hover-text']}>WEB SITE</div>
               </div>
             </div>
-            <h3>book</h3>
+            <h3>アタシが教えてnode.jsア・ゲ・ル♥ node.js実践マニュアル</h3>
             <div>BOOK, PostCSS</div>
           </li>
 
@@ -63,29 +63,29 @@ export default class Work extends Component {
                 <div className={style['hover-text']}>WEB SITE</div>
               </div>
             </div>
-            <h3>book</h3>
-            <div>BOOK, PostCSS</div>
+            <h3>キミと一緒に学びたいECMAScript2015</h3>
+            <div>BOOK, ECMAScript2015</div>
           </li>
 
           <li className={responsive}>
-            <div className={style['work-list']} onClick={() => this.location(URL.PDF_1)}>
+            <div className={style['work-list']} onClick={() => this.location(URL.PDF_2)}>
               <img src={Media1} className={img}/>
               <div className={imgTest}>
                 <div className={style['hover-text']}>WEB SITE</div>
               </div>
             </div>
-            <h3>DTP</h3>
+            <h3>遺言、相続のポスター</h3>
             <div>Poster</div>
           </li>
 
           <li className={responsive}>
-            <div className={style['work-list']} onClick={() => this.location(URL.PDF_2)}>
+            <div className={style['work-list']} onClick={() => this.location(URL.PDF_1)}>
               <img src={Media2} className={img}/>
               <div className={imgTest}>
                 <div className={style['hover-text']}>WEB SITE</div>
               </div>
             </div>
-            <h3>DTP</h3>
+            <h3>治療院、開業</h3>
             <div>Poster</div>
           </li>
 
@@ -96,8 +96,8 @@ export default class Work extends Component {
                 <div className={style['hover-text']}>GitHub</div>
               </div>
             </div>
-            <h3>DTP</h3>
-            <div>Poster</div>
+            <h3>react-recharts-sandbox</h3>
+            <div>React.js</div>
           </li>
 
           <li className={responsive}>
@@ -107,8 +107,8 @@ export default class Work extends Component {
                 <div className={style['hover-text']}>GitHub</div>
               </div>
             </div>
-            <h3>DTP</h3>
-            <div>Poster</div>
+            <h3>react-wp-rest-api</h3>
+            <div>wp-rest-api, React.js</div>
           </li>
 
           <li className={responsive}>
@@ -118,10 +118,9 @@ export default class Work extends Component {
                 <div className={style['hover-text']}>GitHub</div>
               </div>
             </div>
-            <h3>DTP</h3>
-            <div>Poster</div>
+            <h3>react-politicians-library</h3>
+            <div>React.js</div>
           </li>
-
         </ul>
       </section>
     )

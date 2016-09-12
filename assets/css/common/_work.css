@@ -1,11 +1,12 @@
 .block {
   margin: 1rem 0;
   h3 {
-    font-size: .8rem;
+    padding-top: .7rem;
+    font-size: .9rem;
     margin: 0 auto;
   }
   div {
-    font-size: .8rem;
+    font-size: .9rem;
   }
 }
 

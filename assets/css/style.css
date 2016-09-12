@@ -15,15 +15,13 @@
   color: #FFF;
   padding: 1rem 0;
   z-index: 100;
+  font-size: .9rem;
 }
 
-.bg-test {
+.main-bg {
   background-image: url(../img/top.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  /*
-  background-attachment: fixed;
-  */
   background-size: cover;
   background-color: #464646;
 }

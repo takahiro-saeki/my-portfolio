@@ -23,7 +23,7 @@ export default class Intro extends Component {
 
   render() {
     return (
-      <section className={style['bg-test']} style={{height: this.state.height}}>
+      <section className={style['main-bg']} style={{height: this.state.height}}>
         <div style={{
             width: "100%",
             height: "100%",

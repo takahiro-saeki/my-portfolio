@@ -6,6 +6,7 @@
 @import 'common/resume';
 @import 'common/contact';
 @import 'common/work';
+@import 'common/intro';
 
 .navbar {
   position: fixed;

@@ -24,30 +24,9 @@ export default class Intro extends Component {
   render() {
     return (
       <section className={style['main-bg']} style={{height: this.state.height}}>
-        <div style={{
-            width: "100%",
-            height: "100%",
-            background: "rgba(51,51,51,0.5)"
-          }}>
-          <div style={{
-              position: "absolute",
-              width: "100%",
-              height: "170px",
-              maxWidth: "800px",
-              textAlign: "center",
-              top: 0,
-              right: 0,
-              left: 0,
-              bottom: 0,
-              margin: "auto",
-              color: "#FFF"
-            }}>
-            <img src={hiro} style={{
-                width: "150px",
-                height: "auto",
-                borderRadius: "50%",
-                marginBottom: "1rem"
-              }} />
+        <div className={style['intro-wrap']}>
+          <div className={style['intro-icon-wrap']}>
+            <img src={hiro} className={style['intro-icon']} />
             <br />TAKAHIRO-SAEKI.
             <br />I'm front-end developer.
             </div>

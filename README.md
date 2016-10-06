@@ -1,4 +1,4 @@
 #my-portfolio
 with React.js
 
-gh-pages
+https://takahiro-saeki.github.io/my-portfolio/

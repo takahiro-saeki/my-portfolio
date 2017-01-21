@@ -42,3 +42,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.mouseOverLink {
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -8,7 +8,7 @@ export default class Contact extends Component {
     const input = classNames(style['col-xs-12'], style['col-sm-8'], style['content-input']);
     const formWrap = classNames(style['container-fluid'], style['base-width'], style['contact-bg']);
     const buttonGroup = classNames(style.row, style['around-xs']);
-    const submit = classNames(style['col-xs-12'], style['col-md-4'], style['button-submit']);
+    const submit = classNames(style['col-xs-12'], style['col-md-4'], style['button-submit'], style['mouseOverLink']);
     const textarea = classNames(style['col-xs-12'], style['col-sm-8'], style['content-textarea']);
     const contactWrap = classNames(style.row, style['contact-wrap'], 'formrun');
     return (

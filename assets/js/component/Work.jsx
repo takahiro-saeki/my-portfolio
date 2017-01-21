@@ -25,7 +25,7 @@ export default class Work extends Component {
   }
 
   render() {
-    const responsive = classNames(style['col-xs-12'], style['col-sm-6'], style['col-md-4'], style.block);
+    const responsive = classNames(style['col-xs-12'], style['col-sm-6'], style['col-md-4'], style.block, style['mouseOverLink']);
     const img = classNames(style['responsive-img'], style['img-shadow']);
     const imgTest = classNames(style['responsive-img'], style['img-shadow'], style['add-hover']);
     const workWrapper = classNames(style['container-fluid'], style['work-bg']);

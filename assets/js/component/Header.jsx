@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import smoothScroll from 'smooth-scroll';
+import classNames from 'classnames';
 import style from '../../css/style';
 
 export default class Header extends Component {
@@ -9,6 +10,7 @@ export default class Header extends Component {
   }
 
   render() {
+    const NavItem = classNames(style['col-xs-3'], style['mouseOverLink'])
     smoothScroll.init({
       selector: '[data-scroll]',
       selectorHeader: null,
@@ -23,10 +25,10 @@ export default class Header extends Component {
           <div className={style.row}>
             <div className={style['col-xs-12']}>
               <div className={style.row}>
-                <div className={style['col-xs-3']} onClick={() => this.link('#SKILL')}>SKILL</div>
-                <div className={style['col-xs-3']} onClick={() => this.link('#WORK')}>WORK</div>
-                <div className={style['col-xs-3']} onClick={() => this.link('#TIMELINE')}>TIMELINE</div>
-                <div className={style['col-xs-3']} onClick={() => this.link('#CONTACT')}>CONTACT</div>
+                <div className={NavItem} onClick={() => this.link('#SKILL')}>SKILL</div>
+                <div className={NavItem} onClick={() => this.link('#WORK')}>WORK</div>
+                <div className={NavItem} onClick={() => this.link('#TIMELINE')}>TIMELINE</div>
+                <div className={NavItem} onClick={() => this.link('#CONTACT')}>CONTACT</div>
               </div>
             </div>
           </div>
